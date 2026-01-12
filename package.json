@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-admin",
+  "version": "1.0.0",
+  "description": "Telegram Bot Admin for Game Top Up System",
+  "main": "dist/bot/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot/index.js",
+    "dev": "ts-node src/bot/index.ts",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@grammyjs/transformer-throttler": "^1.2.1",
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
